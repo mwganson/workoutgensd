@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <PublishUrlHistory>e:\workoutgensd_new\WorkoutGenSD\publish\|G:\workoutgensd\WorkoutGenSD\publish\|ftp://ftp.mwganson.freeyellow.com/workoutgensd/|c:\workoutgensd_install\|ftp://ftp.mwganson.freeyellow.com/workoutgenSD/</PublishUrlHistory>
+    <InstallUrlHistory>http://mwganson.freeyellow.com/workoutgensd/</InstallUrlHistory>
+    <SupportUrlHistory>http://mwganson.freeyellow.com/workoutgensd/|http://mwganson.freeyellow.com/workoutgensd</SupportUrlHistory>
+    <UpdateUrlHistory>http://mwganson.freeyellow.com/workoutgensd/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ErrorReportUrlHistory>http://mwganson.freeyellow.com/workoutgensd/|http://mwganson.freeyellow.com/workoutgensd</ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+</Project>

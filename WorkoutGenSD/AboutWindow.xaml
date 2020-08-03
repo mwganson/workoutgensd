@@ -1,0 +1,13 @@
+﻿<Window x:Class="WorkoutGenSD.AboutWindow" Background="Black"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="About WorkoutGenSD" Height="326" Width="414">
+    <Grid Height="182" Width="390">
+        <Image Name="image1" Stretch="Uniform" Source="/WorkoutGenSD;component/background.jpg" ClipToBounds="False" StretchDirection="Both" Margin="0,-110,0,-120" />
+        <Label Foreground="White" Background="Transparent" Margin="21,51,116,0" Name="versionLabel" Height="28" VerticalAlignment="Top">Label</Label>
+        <Label Foreground="White" Background="Transparent" Margin="21,71,102,83" Name="copyrightLabel">Label</Label>
+        <Button Height="23" Margin="154,0,161,-12" Name="buttonOkay" VerticalAlignment="Bottom">OK</Button>
+        <Button Height="23" Margin="21,0,38,63" Name="buttonGoToWebsite" VerticalAlignment="Bottom">Click to visit http://mwganson.freeyellow.com/workoutgensd</Button>
+        <Button Margin="21,0,38,34" Name="buttonDonate" Height="23" VerticalAlignment="Bottom" ToolTip="This will bring you to the paypal website where you can make your donation.  You do not need a paypal account in order to donate.">Click here to make a donation</Button>
+    </Grid>
+</Window>
