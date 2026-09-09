@@ -18,8 +18,9 @@
     <StartupObject>WorkoutGenSD.App</StartupObject>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <SignManifests>true</SignManifests>
-    <ManifestCertificateThumbprint>650170A67544697930001F85CF7E1D8B9FE5D01F</ManifestCertificateThumbprint>
-    <ManifestKeyFile>WorkoutGenSD_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestCertificateThumbprint>126BA25E92EC2833B6B57071705411853F4A1A04</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
     <TargetZone>LocalIntranet</TargetZone>
     <SignAssembly>true</SignAssembly>
@@ -28,6 +29,7 @@
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
     <PublishUrl>e:\workoutgensd_new\WorkoutGenSD\publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -50,7 +52,6 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>false</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
