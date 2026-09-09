@@ -57,7 +57,7 @@ namespace WorkoutGenSD
 
         
         
-        string versionString = "WorkoutGenSD v0.2011.0130.1 (beta)";
+        string versionString = "WorkoutGenSD v0.2026.0";
         bool bScaleIntensityCanvas = false;
         string pathToMyDocumentsFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         string pathToAppSettingsIni;
