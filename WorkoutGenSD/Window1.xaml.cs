@@ -57,7 +57,7 @@ namespace WorkoutGenSD
 
         
         
-        string versionString = "WorkoutGenSD v0.2011.0130.1 (beta)";
+        string versionString = "WorkoutGenSD v0.2026.0";
         bool bScaleIntensityCanvas = false;
         string pathToMyDocumentsFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         string pathToAppSettingsIni;
@@ -1108,7 +1108,7 @@ namespace WorkoutGenSD
 
         void helpUsingMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://mwganson.freeyellow.com/workoutgensd/using.html");
+            System.Diagnostics.Process.Start("http://mwganson.com/workoutgensd/using.html");
         }
 
         void stripAllWavesMenuItem_Click(object sender, RoutedEventArgs e)

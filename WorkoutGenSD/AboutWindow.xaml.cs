@@ -34,7 +34,7 @@ namespace WorkoutGenSD
 
         void buttonGoToWebsite_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://mwganson.freeyellow.com/workoutgensd");
+            System.Diagnostics.Process.Start("http://mwganson.com/workoutgensd");
             Close();
         }
 
