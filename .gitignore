@@ -1,0 +1,57 @@
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+
+# Logs
+*.log
+
+# built executables
+*.exe
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider
+.idea/
+
+# Resharper
+*_ReSharper*/
+ReSharper*/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+
+# Publish
+*.publishsettings
+*.pubxml
+*.PublishProfiles/
+
+# Installer prerequisites folder (may contain large redistributables)
+Installer/Prereqs/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary/cache files
+*.cache
+*.cache.*
+
+# GitHub Copilot
+.copilot/
+.copilot/*
+
+# Misc
+*.pid
+*.seed
