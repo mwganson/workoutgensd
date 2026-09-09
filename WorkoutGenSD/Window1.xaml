@@ -14,7 +14,7 @@
 
  
    
-        <DockPanel Panel.ZIndex="1" Height="114.32" Name="dockPanel1" VerticalAlignment="Top" Margin="-2,0,-16,0" LastChildFill="False"></DockPanel>
+        <DockPanel Panel.ZIndex="1" Height="114.32" Name="dockPanel1" VerticalAlignment="Top" Margin="0,0,0,0" LastChildFill="False"></DockPanel>
 
        
 
@@ -167,7 +167,7 @@
         <Label Background="Transparent" Foreground="White" MouseDoubleClick="graduatableLabel_MouseDoubleClick" Height="25"  Margin="200,290.39,353.656,270.054" Name="graduatableLabel" Panel.ZIndex="1" ToolTip="You can double click here to change this setting.">Label</Label>
         
         
-        <Label Height="25" Margin="0,0,136.694,250.05" Name="waveFileManagementLabel" VerticalAlignment="Bottom" Foreground="White" HorizontalAlignment="Right" Width="154.569">Wave File Management Area</Label>
+        <Label Height="25" Margin="0,0,136.694,250.05" Name="waveFileManagementLabel" VerticalAlignment="Bottom" Foreground="White" HorizontalAlignment="Right" Width="154.569">Wave File Management</Label>
         <Canvas MouseLeftButtonDown="intensityCanvas_MouseLeftButtonDown" Margin="12,0,0,238.381" Name="intensityCanvas" HorizontalAlignment="Left"  Width="150" Height="50" VerticalAlignment="Bottom" ToolTip="Click me to adjust my scaling mode."/>
         
         <Button  Background="Transparent" Foreground="White" Name="autoWarmupCooldownButton" ToolTip="Automatically generate an incremental warmup (first 5 minutes) and incremental cool down (last 3 minutes)" Margin="200.04,0,0,238.381" Height="23.222" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="142.96">Auto Warmup/Cooldown</Button>

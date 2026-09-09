@@ -257,7 +257,7 @@ namespace WorkoutGenSD
         public void UnFocusAllSliders()
         {
             //MessageBox.Show("Unfocusing all sliders", this.Name);
-        //    Console.Beep();
+           // Console.Beep();
             for (int ii = 0; ii < this.CountOf0x5dBlocks(); ii++)
             {
                 CommandBlock cb = this.GetNth0x5dBlock(ii);

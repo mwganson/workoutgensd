@@ -57,7 +57,7 @@ namespace WorkoutGenSD
 
         
         
-        string versionString = "WorkoutGenSD v0.2026.0";
+        string versionString = "WorkoutGenSD v0.2026.0909.0";
         bool bScaleIntensityCanvas = false;
         string pathToMyDocumentsFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         string pathToAppSettingsIni;
@@ -74,7 +74,7 @@ namespace WorkoutGenSD
 
 
         bool bFileGenerationInProgress = false;
-        bool bTTWInsertionInProgress = false;
+      //  bool bTTWInsertionInProgress = false;
         BackgroundWorker _backgroundWorker_GenFiles;
         BackgroundWorker _backgroundWorker_InsertTTWs;
         Canvas menuCanvas;
@@ -1185,7 +1185,7 @@ namespace WorkoutGenSD
             {
             //    MessageBox.Show("Finished inserting ttw files.");
                 
-                bTTWInsertionInProgress = false;
+            //    bTTWInsertionInProgress = false;
                 ttwStatusWin.bFileGenerationInProgress = false;
                
                 ttwStatusWin.Close();
@@ -2262,9 +2262,9 @@ namespace WorkoutGenSD
             {
 
                 //r2 is speed sliders row
-                    r2.Height = (GridLength)new GridLengthConverter().ConvertFromString("50");
+                    r2.Height = (GridLength)new GridLengthConverter().ConvertFromString("45");
                 //r5 is for the incline sliders
-                    r5.Height = (GridLength)new GridLengthConverter().ConvertFromString("50");
+                    r5.Height = (GridLength)new GridLengthConverter().ConvertFromString("45");
      
             }
             myGrid.RowDefinitions.Add(r0);
@@ -2289,6 +2289,7 @@ namespace WorkoutGenSD
             inclineSlider = new Slider2();
             speedSlider.Orientation = System.Windows.Controls.Orientation.Horizontal;
             inclineSlider.Orientation = System.Windows.Controls.Orientation.Horizontal;
+            speedSlider.HorizontalAlignment = System.Windows.HorizontalAlignment.Stretch;
             speedSlider.ValueChanged += new RoutedPropertyChangedEventHandler<double>(speedSlider_ValueChanged);
             inclineSlider.ValueChanged += new RoutedPropertyChangedEventHandler<double>(inclineSlider_ValueChanged);
             speedSlider.Maximum = maxSpeed;
@@ -4881,7 +4882,7 @@ namespace WorkoutGenSD
 
         private void insertTTWsForAllSpeedAndInclineAdjustments()
         {
-            bTTWInsertionInProgress = true;
+          //  bTTWInsertionInProgress = true;
             ttwStatusWin = new FileGenStatusWindow();
 
             _backgroundWorker_InsertTTWs.RunWorkerAsync(5000);

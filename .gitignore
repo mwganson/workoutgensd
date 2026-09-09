@@ -8,6 +8,9 @@
 [Bb]in/
 [Oo]bj/
 
+#keys
+.pfx
+
 # Logs
 *.log
 

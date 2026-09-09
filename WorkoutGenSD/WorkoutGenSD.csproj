@@ -17,15 +17,13 @@
     <ApplicationIcon>icon.ico</ApplicationIcon>
     <StartupObject>WorkoutGenSD.App</StartupObject>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <SignManifests>false</SignManifests>
-    <ManifestCertificateThumbprint>0D055C26A5AEC14A4F92B270CE88B16445FFB796</ManifestCertificateThumbprint>
-    <ManifestKeyFile>
-    </ManifestKeyFile>
+    <SignManifests>true</SignManifests>
+    <ManifestCertificateThumbprint>650170A67544697930001F85CF7E1D8B9FE5D01F</ManifestCertificateThumbprint>
+    <ManifestKeyFile>WorkoutGenSD_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
     <TargetZone>LocalIntranet</TargetZone>
-    <SignAssembly>false</SignAssembly>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.pfx</AssemblyOriginatorKeyFile>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -222,12 +220,14 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="key.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="WorkoutGenSD_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
