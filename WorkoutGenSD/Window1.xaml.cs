@@ -1108,7 +1108,7 @@ namespace WorkoutGenSD
 
         void helpUsingMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://mwganson.freeyellow.com/workoutgensd/using.html");
+            System.Diagnostics.Process.Start("http://mwganson.com/workoutgensd/using.html");
         }
 
         void stripAllWavesMenuItem_Click(object sender, RoutedEventArgs e)
